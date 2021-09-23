@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>js-8-homework-running</title>
+  <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  
+  <div class="container p-4">
+    
+    <h2 class="text-center mb-4">Kim birinchi bo-rish-ga!</h2>
+    
+    <form class="d-flex mx-auto w-50 align-items-center mb-5 js-page-form" action="https://echo.htmlacademy.ru"
+    method="POST">
+    <label class="mr-3 font-weight-bold d-flex align-items-center justify-content-between masofa-label"
+    for="masofa-id">Masofa
+    <input class="form-control mr-2 ml-4 mx-2 js-masofa-input" type="number" name="number" placeholder="Masofa"
+    id="masofa-id" autocomplete="off">
+    km
+  </label>
+  
+  <button class="btn bg-success text-white mx-5" type="submit">Hisoblang</button>
+</form>
+
+<ul class="m-0 p-0 list-unstyled d-flex justify-content-around variant-list">
+  <li class="d-flex flex-column align-items-center border p-3 d-block shadow list-iteam">
+    <img class="mb-2" src="https://picsum.photos/60/60" alt="rasm">
+    <p class="mb-4">Piyoda</p>
+    <p><span class="js-piyoda">0</span> Soat <span class="js-piyodamin">0</span> Min</p>
+  </li>
+  <li class="list-iteam d-flex flex-column align-items-center border p-3 d-block shadow">
+    <img class="mb-2" src="https://picsum.photos/60/60" alt="rasm">
+    <p class="mb-4">Velosiped</p>
+    <p><span class="js-velo">0</span> Soat <span class="js-velomin">0</span> Min</p>
+  </li>
+  <li class="list-iteam d-flex flex-column align-items-center border p-3 d-block shadow">
+    <img class="mb-2" src="https://picsum.photos/60/60" alt="rasm">
+    <p class="mb-4">Mashina</p>
+    <p><span class="js-moshin">0</span> Soat <span class="js-moshinmin">0</span> Min</p>
+  </li>
+  <li class="list-iteam d-flex flex-column align-items-center border p-3 d-block shadow">
+    <img class="mb-2" src="https://picsum.photos/60/60" alt="rasm">
+    <p class="mb-4">Samalyot</p>
+    <p><span class="js-uchoq">0</span> Soat <span class="js-uchoqmin">0</span> Min</p>
+  </li>
+</ul>
+</div>
+
+<script src="bootstrap/js/bootstrap.min.js"></script>
+<script src="js/index.js"></script>
+</body>
+</html>
